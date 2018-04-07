@@ -1,8 +1,21 @@
 # hackerrank Swift
-
- *Answers of algorithms*
- 
 https://www.hackerrank.com
 
-해당 사이트의 알고리즘 풀이에 swift version 거의.. 없어서..
+ **Solutions for HackerRank Algorithms - Swift**
+ 
 
+Category
+
+- Warmup
+- Implementation
+- Strings
+- Sorting
+- Greedy
+
+
+**Getting Start**
+
+```
+git clone git@github.com:heyKaren/HackerRank_solutions_Swift.git
+
+```
