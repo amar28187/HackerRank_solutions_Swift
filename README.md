@@ -1,8 +1,9 @@
 # hackerrank Swift
 https://www.hackerrank.com
 
- **Solutions for HackerRank Algorithms - Swift**
+ Solutions for HackerRank Algorithms - Swift
  
+  **It's not a project. All Playground**
 
 Category
 
