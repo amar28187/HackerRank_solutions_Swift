@@ -23,6 +23,9 @@ func timeConversion(s: String) -> String {
     
     if (arrString[3] == "PM") {
         arrString[0] = "\(Int(arrString[0])!+12)"
+        if arrString[0] == "24" {
+            arrString[0] = "00"
+        }
     }
     
     return "\(arrString[0]):\(arrString[1]):\(arrString[2])"
@@ -39,4 +42,4 @@ let result = timeConversion(s: s)
 fileHandle.write(result.data(using: .utf8)!)
 fileHandle.write("\n".data(using: .utf8)!)
 
-//timeConversion(s: "07:05:45PM")
+//timeConversion(s: "12:05:59AM")
