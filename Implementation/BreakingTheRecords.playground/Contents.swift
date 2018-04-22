@@ -12,7 +12,7 @@ func breakingRecords(score: [Int]) -> [Int] {
     var minScore = score[0]
     var arrCount = [0, 0] // maxCount + minCount
     
-    for i in 1...score.count-1 {
+    for i in 0...score.count-1 {
         if maxScore < score[i] {
             maxScore = score[i]
             arrCount[0] += 1
@@ -29,7 +29,7 @@ func breakingRecords(score: [Int]) -> [Int] {
     
 }
 
-//breakingRecords(score: [10, 5, 20, 20, 4, 5, 2, 25, 1])
+//breakingRecords(score: [10])
 
 let fileName = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
 FileManager.default.createFile(atPath: fileName, contents: nil, attributes: nil)
